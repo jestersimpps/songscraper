@@ -1,0 +1,16 @@
+C:\Users\jester\AppData\Local\Temporary Projects\ontopofmyhead\bin\Debug\ontopofmyhead.exe
+C:\Users\jester\AppData\Local\Temporary Projects\ontopofmyhead\bin\Debug\ontopofmyhead.pdb
+C:\Users\jester\AppData\Local\Temporary Projects\ontopofmyhead\bin\Debug\ontopofmyhead.xml
+C:\Users\jester\AppData\Local\Temporary Projects\ontopofmyhead\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jester\AppData\Local\Temporary Projects\ontopofmyhead\obj\x86\Debug\ontopofmyhead.Form1.resources
+C:\Users\jester\AppData\Local\Temporary Projects\ontopofmyhead\obj\x86\Debug\ontopofmyhead.Resources.resources
+C:\Users\jester\AppData\Local\Temporary Projects\ontopofmyhead\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\jester\AppData\Local\Temporary Projects\ontopofmyhead\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\jester\AppData\Local\Temporary Projects\ontopofmyhead\obj\x86\Debug\ontopofmyhead.exe
+C:\Users\jester\AppData\Local\Temporary Projects\ontopofmyhead\obj\x86\Debug\ontopofmyhead.xml
+C:\Users\jester\AppData\Local\Temporary Projects\ontopofmyhead\obj\x86\Debug\ontopofmyhead.pdb
+C:\Users\jester\AppData\Local\Temporary Projects\ontopofmyhead\bin\Debug\Interop.WMPLib.dll
+C:\Users\jester\AppData\Local\Temporary Projects\ontopofmyhead\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\jester\AppData\Local\Temporary Projects\ontopofmyhead\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\jester\AppData\Local\Temporary Projects\ontopofmyhead\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\jester\AppData\Local\Temporary Projects\ontopofmyhead\obj\x86\Debug\ontopofmyhead.vbproj.ResolveComReference.cache

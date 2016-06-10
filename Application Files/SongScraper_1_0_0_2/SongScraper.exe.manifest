@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="SongScraper.exe" version="1.0.0.2" publicKeyToken="8b424d27176b3da3" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SongScraper" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="SongScraper.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>0Fxyy0DvGitJ9XJGVCCSoo4fu2w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GvS.Controls.HtmlTextbox.dll" size="43520">
+      <assemblyIdentity name="GvS.Controls.HtmlTextbox" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>rtfqAAUKoGPu5IqyTtUqYzGdsJ4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="331264">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>1SidMLTVmKLpJvNbPxA+EPR4qjQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SongScraper.exe" size="148992">
+      <assemblyIdentity name="SongScraper" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>3S2rE9k5jdoWFoB2Pzgx7pkgmjs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=jester-PC\jester" issuerKeyHash="4f3bcfc2de56accfe28393393b61078df786d7ed" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>msU5OZBQVaMgtuyofuTQXL1qsq4=</DigestValue></Reference></SignedInfo><SignatureValue>QmoIJO518qNGkTAHN5XVLIapsdy2DVNuyTyg7C4yQhZR86zdWGLQJQDpUCB4jOV2TqNznpfAhWCowNLMy91QLKKQNhpg8QyzJIv9ETgEZN8Z4DBGsKq3ow/7zzaYIVz3pJyfGlQN35aX1Ci6+X/+IrNMFub6bti14T8mzpzz1SQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4smBx8cKjoiZvwyH0ZhtlOsNiYgqkQRI10ZG4s8U1DNbIzwXzG8jXqE3IIv3/o3xm9X2WwO8w7Sym7mdONm6Pfg7PS/YTOHcJ3+n3ivYKqlTVb20RTPwFSq+bVzH/3Sz1W1TTk921o4KoIyt3zVaLaWKLCJVUvS9yerDzn77C+s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="aeb26abd5cd0e47ea8ecb620a35550903939c59a" Description="" Url=""><as:assemblyIdentity name="SongScraper.exe" version="1.0.0.2" publicKeyToken="8b424d27176b3da3" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=jester-PC\jester</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>3wLbyt64nbhiNNWRa9yA+H/qK/U=</DigestValue></Reference></SignedInfo><SignatureValue>H0rItD/T9+CzNEPsLRjA3908YV5B5SbjBr0CK+dPyLKLN5TxhNISr8DkSmIDTgsYxzQms8cp9Nt+1QsjnZqdfuq72f0i2UN+LPXS/EAbgt28IVocB8ODvM1XZXX1myprpa+OF9+CBpEq7khvm+bwLrnNhrnLbXwh4NGWgdxmBeU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4smBx8cKjoiZvwyH0ZhtlOsNiYgqkQRI10ZG4s8U1DNbIzwXzG8jXqE3IIv3/o3xm9X2WwO8w7Sym7mdONm6Pfg7PS/YTOHcJ3+n3ivYKqlTVb20RTPwFSq+bVzH/3Sz1W1TTk921o4KoIyt3zVaLaWKLCJVUvS9yerDzn77C+s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQG/tr2SUocJJMZ3gR81iQYzANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAAagBlAHMAdABlAHIALQBQAEMAXABqAGUAcwB0AGUAcjAeFw0xNDAxMjQwMTI4MjVaFw0xNTAxMjQwNzI4MjVaMCsxKTAnBgNVBAMeIABqAGUAcwB0AGUAcgAtAFAAQwBcAGoAZQBzAHQAZQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDiyYHHxwqOiJm/DIfRmG2U6w2JiCqRBEjXRkbizxTUM1sjPBfMbyNeoTcgi/f+jfGb1fZbA7zDtLKbuZ042bo9+Ds9L9hM4dwnf6feK9gqqVNVvbRFM/AVKr5tXMf/dLPVbVNOT3bWjgqgjK3fNVotpYosIlVS9L3J6sPOfvsL6wIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAHTk8rU8EZzrQpVYx/5LP5EePQ7ZUhD/6sedtD67v7jZCKiYjLKOHG0jeHGmTZ2tE9ypBjtuA8pDnwyY7Fvb1EJIulce7iTcQOpnV6l+nVe3KqYXnf2WCRyZXAVZUF+D6lqCKDchV26eXY7FERW7EBFtKbHphAtt5o+dOUzfayTk</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
